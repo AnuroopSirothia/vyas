@@ -1,0 +1,37 @@
+---
+- problem: XYZ application not working
+  solution: Restart Jboss
+  
+  steps:
+    - step: service jbossas restart
+    - step: service nginx restart
+    - step: rm -rf /var/log
+
+  dependencies:
+    - app1
+    - app2
+    - app3
+
+  flow:
+    - app1
+    - app2
+    - app3
+
+  reference:
+    - ref: 
+      name: How to start JBoss.
+      link: https://bit.ly/3yRblJn
+
+  keypersons:
+    - Marc Fleury
+    - Anuroop
+
+  keywords:
+    - JBoss
+    - Nginx
+
+  todo:
+    - Where to restart jbossas service?
+    - Is it safe to delete all the logs in /var/log?
+    - What are the contact details of the key persons?
+...
