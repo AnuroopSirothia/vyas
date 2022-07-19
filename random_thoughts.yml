@@ -1,0 +1,22 @@
+---
+
+random_thoughts:
+- This YAML can also be used by Developers to debug issues or it can be used by an intelligent program/self healing system.
+
+todo:
+  implementation:
+    - Nudge developers to provide solution.
+    - If solution does not solve the problem mark the problem as unresolved.
+
+  research:
+    - Google how to contruct a knowledge tree.
+    - How is (Known Error Database) KEDB implemented?
+    - How is KEDB used in other company/industry?
+
+scoringpoints:
+- Give points to person who adds more information.
+- Higher score for providing email ID.
+
+
+
+...
